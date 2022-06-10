@@ -1,4 +1,13 @@
- 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Mastrofini Alessandro
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Medical Engineering - University of Rome Tor Vergata
+% Physiological Systems Modeling and Simulation
+% F. Caselli, MSSF A.Y. 2021/2022
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Glucose minimal model
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 load("../experimental_data.mat")
 time=tgi(:,1);
 glucose=tgi(:,2);
