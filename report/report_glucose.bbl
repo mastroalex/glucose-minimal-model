@@ -16,5 +16,469 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{sherwood_fisiologia_2008}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SL}{%
+         family={Sherwood},
+         familyi={S\bibinitperiod},
+         given={Lauralee},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Italian}%
+    }
+    \list{publisher}{1}{%
+      {Zanichelli}%
+    }
+    \strng{namehash}{SL1}
+    \strng{fullhash}{SL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{isbn}{978-88-08-06727-2}
+    \field{note}{OCLC: 849240778}
+    \field{shorttitle}{Fisiologia umana}
+    \field{title}{Fisiologia umana: dalle cellule ai sistemi}
+    \list{location}{1}{%
+      {Bologna}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{nelson_lehninger_2021}{book}{}
+    \name{author}{3}{}{%
+      {{hash=NDL}{%
+         family={Nelson},
+         familyi={N\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CMM}{%
+         family={Cox},
+         familyi={C\bibinitperiod},
+         given={Michael\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hoskins},
+         familyi={H\bibinitperiod},
+         given={Aaron\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {W. H. Freeman}%
+    }
+    \strng{namehash}{NDLCMMHAA1}
+    \strng{fullhash}{NDLCMMHAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    "Lehninger Principles of Biochemistry earned acclaim for its presentation
+  and organization of complex concepts and connections, anchored in the
+  principles of biochemistry. This legacy continues in the eighth edition with
+  a new framework that highlights the principles and supports student
+  learning"--%
+    }
+    \field{edition}{Eighth edition}
+    \field{isbn}{978-1-319-22800-2}
+    \field{shorttitle}{Lehninger}
+    \field{title}{Lehninger: principles of biochemistry}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{2021}
+  \endentry
+
+  \entry{darden_predicting_2020-1}{incollection}{}
+    \name{author}{6}{}{%
+      {{hash=DCM}{%
+         family={Darden},
+         familyi={D\bibinitperiod},
+         given={Carly\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FAE}{%
+         family={Farrow},
+         familyi={F\bibinitperiod},
+         given={Anne\bibnamedelima Elizabeth},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=RSK}{%
+         family={Rajan},
+         familyi={R\bibinitperiod},
+         given={Shanthini\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lakhani},
+         familyi={L\bibinitperiod},
+         given={Muhaib},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LMC}{%
+         family={Lawrence},
+         familyi={L\bibinitperiod},
+         given={Michael\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Naziruddin},
+         familyi={N\bibinitperiod},
+         given={Bashoo},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DCM+1}
+    \strng{fullhash}{DCMFAERSKLMLMCNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Transplantation, {Bioengineering}, and {Regeneration} of
+  the {Endocrine} {Pancreas}}
+    \verb{doi}
+    \verb 10.1016/B978-0-12-814833-4.00044-7
+    \endverb
+    \field{isbn}{978-0-12-814833-4}
+    \field{pages}{547\bibrangedash 561}
+    \field{title}{Predicting the function of islets after transplantation}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128148334000447
+    \endverb
+    \verb{file}
+    \verb Darden et al. - 2020 - Predicting the function of islets after transp
+    \verb lant.pdf:C\:\\Users\\bigba\\Zotero\\storage\\NLHITEDG\\Darden et al.
+    \verb - 2020 - Predicting the function of islets after transplant.pdf:appli
+    \verb cation/pdf
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{11}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{cersosimo_assessment_nodate}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CE}{%
+         family={Cersosimo},
+         familyi={C\bibinitperiod},
+         given={Eugenio},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SHC}{%
+         family={Solis-Herrera},
+         familyi={S\bibinithyphendelim H\bibinitperiod},
+         given={Carolina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TME}{%
+         family={Trautmann},
+         familyi={T\bibinitperiod},
+         given={Michael\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Malloy},
+         familyi={M\bibinitperiod},
+         given={Jaret},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TCL}{%
+         family={Triplitt},
+         familyi={T\bibinitperiod},
+         given={Curtis\bibnamedelima L},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{CE+1}
+    \strng{fullhash}{CESHCTMEMJTCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Type 2 diabetes mellitus (T2DM) is characterized by a progressive failure
+  of pancreatic -cell function (BCF) with insulin resistance. Once insulin
+  over-secretion can no longer compensate for the degree of insulin resistance,
+  hyperglycemia becomes clinically significant and deterioration of residual
+  -cell reserve accelerates. This pathophysiology has important therapeutic
+  implications. Ideally, therapy should address the underlying pathology and
+  should be started early along the spectrum of decreasing glucose tolerance in
+  order to prevent or slow -cell failure and reverse insulin resistance. The
+  development of an optimal treatment strategy for each patient requires
+  accurate diagnostic tools for evaluating the underlying state of glucose
+  tolerance. This review focuses on the most widely used methods for measuring
+  BCF within the context of insulin resistance and includes examples of their
+  use in prediabetes and T2DM, with an emphasis on the most recent therapeutic
+  options (dipeptidyl peptidase-4 inhibitors and glucagon-like peptide-1
+  receptor agonists). Methods of BCF measurement include the homeostasis model
+  assessment (HOMA); oral glucose tolerance tests, intravenous glucose
+  tolerance tests (IVGTT), and meal tolerance tests; and the hyperglycemic
+  clamp procedure. To provide a meaningful evaluation of BCF, it is necessary
+  to interpret all observations within the context of insulin resistance.
+  Therefore, this review also discusses methods utilized to quantitate
+  insulin-dependent glucose metabolism, such as the IVGTT and the
+  euglycemic-hyperinsulinemic clamp procedures. In addition, an example is
+  presented of a mathematical modeling approach that can use data from BCF
+  measurements to develop a better understanding of BCF behavior and the
+  overall status of glucose tolerance.%
+    }
+    \field{pages}{41}
+    \field{title}{Assessment of {Pancreatic} -{Cell} {Function}: {Review} of
+  {Methods} and {Clinical} {Applications}}
+    \verb{file}
+    \verb Cersosimo et al. - Assessment of Pancreatic -Cell Function Review of.
+    \verb pdf:C\:\\Users\\bigba\\Zotero\\storage\\NI4X9Z8S\\Cersosimo et al. -
+    \verb Assessment of Pancreatic -Cell Function Review of.pdf:application/pdf
+    \endverb
+  \endentry
+
+  \entry{daly_acute_1998}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DME}{%
+         family={Daly},
+         familyi={D\bibinitperiod},
+         given={M\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vale},
+         familyi={V\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=WM}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=LA}{%
+         family={Littlefield},
+         familyi={L\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=AKG}{%
+         family={Alberti},
+         familyi={A\bibinitperiod},
+         given={K\bibnamedelima G},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MJC}{%
+         family={Mathers},
+         familyi={M\bibinitperiod},
+         given={J\bibnamedelima C},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{DME+1}
+    \strng{fullhash}{DMEVCWMLAAKGMJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1093/ajcn/67.6.1186
+    \endverb
+    \field{issn}{0002-9165, 1938-3207}
+    \field{number}{6}
+    \field{pages}{1186\bibrangedash 1196}
+    \field{title}{Acute effects on insulin sensitivity and diurnal metabolic
+  profiles of a high-sucrose compared with a high-starch diet}
+    \verb{url}
+    \verb https://academic.oup.com/ajcn/article/67/6/1186-1196/4666071
+    \endverb
+    \field{volume}{67}
+    \verb{file}
+    \verb Daly et al_1998_Acute effects on insulin sensitivity and diurnal meta
+    \verb bolic profiles of a.pdf:C\:\\Users\\bigba\\Zotero\\storage\\Z7ZGVXDJ\
+    \verb \Daly et al_1998_Acute effects on insulin sensitivity and diurnal met
+    \verb abolic profiles of a.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{The American Journal of Clinical Nutrition}
+    \field{month}{06}
+    \field{year}{1998}
+    \field{urlday}{11}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{bergman_quantitative_1979}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BRN}{%
+         family={Bergman},
+         familyi={B\bibinitperiod},
+         given={R\bibnamedelima N},
+         giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=IYZ}{%
+         family={Ider},
+         familyi={I\bibinitperiod},
+         given={Y\bibnamedelima Z},
+         giveni={Y\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=BCR}{%
+         family={Bowden},
+         familyi={B\bibinitperiod},
+         given={C\bibnamedelima R},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cobelli},
+         familyi={C\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BRN+1}
+    \strng{fullhash}{BRNIYZBCRCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We have evaluated the feasibility of using a mathematical model of glucose
+  disappearance to estimate insulin sensitivity. Glucose was injected into
+  conscious dogs at 100, 200, or 300 mg/kg. The measured time course of insulin
+  was regarded as the "input," and the falling glucose concentration as the
+  "output" of the physiological system storing and using glucose. Seven
+  mathematical models of glucose uptake were compared to identify the
+  representation most capable of simulating glucose disappearance. One specific
+  nonlinear model was superior in that it 1) predicted the time course of
+  glucose after glucose injection, 2) had four parameters that could be
+  precisely estimated, and 3) described individual experiments with similar
+  parameter values. Insulin sensitivity index (SI), defined as the dependence
+  of fractional glucose disappearance on plasma insulin, was the ratio of two
+  parameters of the chosen model and could be estimated with good
+  reproducibility from the 300 mg/kg injection experiments (SI = 7.00 X 10(-4)
+  +/- 24\% (coefficient of variation) min-1/(microU/ml) (n = 8)). Thus, from a
+  single glucose injection it is possible to obtain a quantitative index of
+  insulin sensitivity that may have clinical applicability.%
+    }
+    \verb{doi}
+    \verb 10.1152/ajpendo.1979.236.6.E667
+    \endverb
+    \field{issn}{0193-1849, 1522-1555}
+    \field{number}{6}
+    \field{pages}{E667}
+    \field{title}{Quantitative estimation of insulin sensitivity.}
+    \verb{url}
+    \verb https://www.physiology.org/doi/10.1152/ajpendo.1979.236.6.E667
+    \endverb
+    \field{volume}{236}
+    \verb{file}
+    \verb Bergman et al_1979_Quantitative estimation of insulin sensitivity.pdf
+    \verb :C\:\\Users\\bigba\\Zotero\\storage\\V5FYCASQ\\Bergman et al_1979_Qua
+    \verb ntitative estimation of insulin sensitivity.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{American Journal of Physiology-Endocrinology and
+  Metabolism}
+    \field{month}{06}
+    \field{year}{1979}
+    \field{urlday}{04}
+    \field{urlmonth}{04}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{simulink}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MathWorks},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Simulink}
+    \verb{url}
+    \verb https://it.mathworks.com/products/simulink.html
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{pacini_minmod_1986}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PG}{%
+         family={Pacini},
+         familyi={P\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BRN}{%
+         family={Bergman},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima N.},
+         giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{PGBRN1}
+    \strng{fullhash}{PGBRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1016/0169-2607(86)90106-9
+    \endverb
+    \field{issn}{01692607}
+    \field{number}{2}
+    \field{pages}{113\bibrangedash 122}
+    \field{shorttitle}{{MINMOD}}
+    \field{title}{{MINMOD}: a computer program to calculate insulin sensitivity
+  and pancreatic responsivity from the frequently sampled intravenous glucose
+  tolerance test}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/0169260786901069
+    \endverb
+    \field{volume}{23}
+    \verb{file}
+    \verb Pacini_Bergman_1986_MINMOD.pdf:C\:\\Users\\bigba\\Zotero\\storage\\VH
+    \verb TCHZRL\\Pacini_Bergman_1986_MINMOD.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Computer Methods and Programs in Biomedicine}
+    \field{month}{10}
+    \field{year}{1986}
+    \field{urlday}{10}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{ode45}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ndeâmomOS}{%
+         prefix={nonstiff differential equations â€” medium\bibnamedelima
+  order},
+         prefixi={n\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim
+  e\bibinitperiod\bibinitdelim â\bibinitperiod\bibinitdelim
+  m\bibinitperiod\bibinitdelim o\bibinitperiod},
+         family={method},
+         familyi={m\bibinitperiod},
+         given={ODE45\bibnamedelima Solve},
+         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{mOSndeâmo1}
+    \strng{fullhash}{mOSndeâmo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{MathWorks}
+    \verb{url}
+    \verb https://it.mathworks.com/help/matlab/ref/ode45.html
+    \endverb
+    \field{year}{2022}
+  \endentry
+\enddatalist
 \endinput

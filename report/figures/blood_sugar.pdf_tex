@@ -1,0 +1,73 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'blood_sugar.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{2332.87072688bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.38453544)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{blood_sugar.pdf}}%
+    \put(0.42803466,0.25006275){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}high blood sugar level\end{tabular}}}}%
+    \put(0.64861082,0.25106307){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}low blood sugar level\end{tabular}}}}%
+    \put(0.20388716,0.33597915){\rotatebox{19.85576114}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}insulin\end{tabular}}}}}%
+    \put(0.93572543,0.340203){\rotatebox{-28.8476875}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}glucagon\end{tabular}}}}}%
+    \put(0.82794387,0.38070893){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}pancreas\end{tabular}}}}%
+    \put(0.90986732,0.17757063){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}liver\end{tabular}}}}%
+    \put(0.32431658,0.38165205){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}pancreas\end{tabular}}}}%
+    \put(0.34207487,0.17441273){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}liver\end{tabular}}}}%
+    \put(0.15305401,0.0656676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}fat deposits\end{tabular}}}}%
+    \put(0.00552153,0.09756703){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}muscles\end{tabular}}}}%
+    \put(0.07936706,0.20899447){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}increase \end{tabular}}}}%
+    \put(0.39854436,0.10843131){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}glucose reduction\end{tabular}}}}%
+    \put(0.76416585,0.03273949){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}glucose relase\end{tabular}}}}%
+    \put(0.07993847,0.19145889){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}metabolic\end{tabular}}}}%
+    \put(0.07977175,0.1747867){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}activity\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

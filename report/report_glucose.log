@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  10 JUN 2022 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 JUN 2022 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1466,13 +1466,76 @@ Package biblatex Info: ... file 'report_glucose.bbl' found.
 (./report_glucose.bbl)
 Package biblatex Info: Reference section=0 on input line 152.
 Package biblatex Info: Reference segment=0 on input line 152.
- (./testo.tex
-<figures//logo.png, id=4, 336.384pt x 337.698pt>
+ (./testo.tex (./figures//blood_sugar.pdf_tex
+<figures//blood_sugar.pdf, id=4, page=1, 2341.61887pt x 900.43549pt>
+File: figures//blood_sugar.pdf Graphic file (type pdf)
+<use figures//blood_sugar.pdf, page 1>
+Package pdftex.def Info: figures//blood_sugar.pdf , page1 used on input line 56
+.
+(pdftex.def)             Requested size: 471.51228pt x 181.30672pt.
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
+e 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
+ine 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
+e 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+ne 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
+e 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
+e 57.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+))
+<figures/glucose_regolation2.png, id=5, 722.7pt x 542.025pt>
+File: figures/glucose_regolation2.png Graphic file (type png)
+<use figures/glucose_regolation2.png>
+Package pdftex.def Info: figures/glucose_regolation2.png  used on input line 18
+.
+(pdftex.def)             Requested size: 240.73483pt x 180.54773pt.
+
+Underfull \hbox (badness 6078) in paragraph at lines 27--28
+[]\T1/stix/m/n/12 Normalmente, il glu-co-sio viene con-ser-vato
+ []
+
+<figures//logo.png, id=6, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 6.
+Package pdftex.def Info: figures//logo.png  used on input line 30.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 52.54129pt, for example:
@@ -1485,6 +1548,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//logo.png>]
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
+33.
+ (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
+File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]\T1/stix/m/n/12 La pre-senza dello stimo op-posto, quale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/stix/m/n/12 la riduzione della glicemia porta in-vece
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 37--38
+\T1/stix/m/n/12 all'attivazione delle cel-lule del pan-creas che a
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1493,65 +1575,146 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-0.
- (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+[2 <./figures//blood_sugar.pdf> <./figures/glucose_regolation2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]\T1/stix/m/it/12 insulin sen-si-tiv-ity\T1/stix/m/n/12 , misura l'efficacia
+ []
+
+(./figures//minimal.pdf_tex
+<figures//minimal.pdf, id=27, page=1, 769.75397pt x 321.96074pt>
+File: figures//minimal.pdf Graphic file (type pdf)
+<use figures//minimal.pdf, page 1>
+Package pdftex.def Info: figures//minimal.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 231.00615pt x 96.61844pt.
+)
+<../code/prediction/matlab/figs/glucose_model.pdf, id=28, 370.38374pt x 304.136
+25pt>
+File: ../code/prediction/matlab/figs/glucose_model.pdf Graphic file (type pdf)
+<use ../code/prediction/matlab/figs/glucose_model.pdf>
+Package pdftex.def Info: ../code/prediction/matlab/figs/glucose_model.pdf  used
+ on input line 102.
+(pdftex.def)             Requested size: 235.75613pt x 193.58844pt.
+<../code/prediction/matlab/figs/insuline_model.pdf, id=29, 370.38374pt x 304.13
+625pt>
+File: ../code/prediction/matlab/figs/insuline_model.pdf Graphic file (type pdf)
+
+<use ../code/prediction/matlab/figs/insuline_model.pdf>
+Package pdftex.def Info: ../code/prediction/matlab/figs/insuline_model.pdf  use
+d on input line 108.
+(pdftex.def)             Requested size: 235.75613pt x 193.58844pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 120--121
+[]\T1/stix/m/n/12 Tramite tale mod-ello è pos-si-bile risalire ai
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 120--121
+\T1/stix/m/n/12 parametri di in-ter-esse clin-ico, quali la glu-cose
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 120--121
+\T1/stix/m/n/12 ef-fec-tive-ness e la in-su-line sen-si-tiv-ity a par-tire
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 120--121
+\T1/stix/m/n/12 noti i parametri de-scrit-tivi, è pos-si-bile predire
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./figures//minimal.pdf>]
+(c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+61.
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 30.
+<figures/simulink_extended.pdf, id=47, 794.97pt x 265.99374pt>
+File: figures/simulink_extended.pdf Graphic file (type pdf)
+<use figures/simulink_extended.pdf>
+Package pdftex.def Info: figures/simulink_extended.pdf  used on input line 192.
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
-File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 30.
+(pdftex.def)             Requested size: 400.78831pt x 134.10457pt.
+<figures/simulink.pdf, id=48, 794.97pt x 127.62581pt>
+File: figures/simulink.pdf Graphic file (type pdf)
+<use figures/simulink.pdf>
+Package pdftex.def Info: figures/simulink.pdf  used on input line 198.
+(pdftex.def)             Requested size: 400.78831pt x 64.34438pt.
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
-File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+Underfull \hbox (badness 10000) in paragraph at lines 190--202
+[]$[]$
+ []
 
-)
-LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 30.
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
-File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 30.
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]\T1/stix/m/n/12 Per l'implementazione Mat-lab richiede di
+ []
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
-File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 30.
+Underfull \hbox (badness 1655) in paragraph at lines 208--209
+\T1/stix/m/n/12 pas-sare a \T1/cmtt/m/n/12 ode45() \T1/stix/m/n/12 le equazioni
+ dif-feren-ziali e
+ []
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
-File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
-ons
-)
-LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 30.
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
-File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\T1/cmtt/m/n/12 odefcn() \T1/stix/m/n/12 men-tre i parametri ven-gono uniti
+ []
 
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 30.
 
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
-File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+[]\T1/stix/m/n/12 Per il vet-tore tem-po-rale con-viene pas-sare
+ []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+Underfull \hbox (badness 2573) in paragraph at lines 212--213
+\T1/stix/m/n/12 so-la-mente l'instante in-iziale e fi-nale las-ciando
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <../code/prediction/matlab/figs/glucose_model.pdf> <../code/prediction/matla
+b/figs/insuline_model.pdf>]
+Underfull \vbox (badness 6316) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 <./figures/simulink_extended.pdf> <./figures/simulink.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
@@ -1564,24 +1727,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
-
-LaTeX Warning: Empty bibliography on input line 35.
-
-)
-
-Package caption Warning: Unused \captionsetup[figure] on input line 29.
-See the caption package documentation for explanation.
+[6]
+Underfull \hbox (badness 4913) in paragraph at lines 246--246
+[]\T1/stix/m/n/10 Lauralee Sher-wood. \T1/stix/m/it/10 Fi-si-olo-gia umana: dal
+le cel-
+ []
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 30.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 1436) in paragraph at lines 246--246
+[]\T1/stix/m/n/10 David L. Nel-son, Michael M. Cox, and Aaron A.
+ []
 
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 31.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 1622) in paragraph at lines 246--246
+\T1/stix/m/it/10 Endocrinology and Metabolism \T1/stix/m/n/10 236.6 (June 1979)
+,
+ []
 
 
+Underfull \hbox (badness 1168) in paragraph at lines 246--246
+\T1/stix/m/n/10 a com-puter pro-gram to cal-cu-late in-sulin sen-si-tiv-ity
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 246--246
+\T1/cmtt/m/n/10 0169 -[] 2607(86 ) 90106 -[] 9$\T1/stix/m/n/10 . \T1/stix/m/sc/
+10 url\T1/stix/m/n/10 : $\T1/cmtt/m/n/10 https : / /
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7
+
+]) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1591,7 +1775,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4
+[8
 
 
 ] (./report_glucose.aux)
@@ -1600,22 +1784,30 @@ Package logreq Info: Writing requests to 'report_glucose.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45940 strings out of 478579
- 1052365 string characters out of 5857457
- 1715151 words of memory out of 5000000
- 63146 multiletter control sequences out of 15000+600000
- 459797 words of font info for 88 fonts, out of 8000000 for 9000
+ 47282 strings out of 478579
+ 1072177 string characters out of 5857457
+ 2017092 words of memory out of 5000000
+ 64458 multiletter control sequences out of 15000+600000
+ 510482 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,97p,1884b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,16n,97p,1884b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2021/texmf-dis
-t/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/font
-s/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sftt1200.pfb>
-Output written on report_glucose.pdf (4 pages, 143352 bytes).
+ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021/texmf-dis
+t/fonts/enc/dvips/stix/stix-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
+ix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/S
+TIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
+sftt0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.p
+fb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/tex
+live/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/t
+exmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/f
+onts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
+public/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/sti
+x/stix-mathtt.pfb>
+Output written on report_glucose.pdf (8 pages, 847352 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 301 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

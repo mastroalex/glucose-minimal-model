@@ -95,3 +95,13 @@ exportgraphics(figure(3),strcat(path,'glucose_model','.pdf'),'BackgroundColor','
 %exportgraphics(figure(1),strcat(path,'effective_insuline_model','.pdf'),'BackgroundColor','none','ContentType','vector');
 exportgraphics(figure(4),strcat(path,'insulin_model','.pdf'),'BackgroundColor','none','ContentType','vector');
 
+%% evaluation
+% evaluate solution in the same istant of the samples (time)
+sol = ode45(@(t,y) odefcn(t,y,insuline,time,parameters), [time(1), time(end)],[G0,x0]);
+% calcolate value G(time), X(time)
+evaluated_sol=deval(sol,time);
+% calcolate error like (sample-model)./sample
+error=100*abs((glucose-evaluated_sol(1,:)')./glucose);
+% extract mean error with the first component
+error_value=mean(error(2:end));
+disp(['Mean error: ',num2str(error_value),' %'])
