@@ -17,6 +17,78 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{daly_acute_1998}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DME}{%
+         family={Daly},
+         familyi={D\bibinitperiod},
+         given={M\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vale},
+         familyi={V\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=WM}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=LA}{%
+         family={Littlefield},
+         familyi={L\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=AKG}{%
+         family={Alberti},
+         familyi={A\bibinitperiod},
+         given={K\bibnamedelima G},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MJC}{%
+         family={Mathers},
+         familyi={M\bibinitperiod},
+         given={J\bibnamedelima C},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{DME+1}
+    \strng{fullhash}{DMEVCWMLAAKGMJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1093/ajcn/67.6.1186
+    \endverb
+    \field{issn}{0002-9165, 1938-3207}
+    \field{number}{6}
+    \field{pages}{1186\bibrangedash 1196}
+    \field{title}{Acute effects on insulin sensitivity and diurnal metabolic
+  profiles of a high-sucrose compared with a high-starch diet}
+    \verb{url}
+    \verb https://academic.oup.com/ajcn/article/67/6/1186-1196/4666071
+    \endverb
+    \field{volume}{67}
+    \verb{file}
+    \verb Daly et al_1998_Acute effects on insulin sensitivity and diurnal meta
+    \verb bolic profiles of a.pdf:C\:\\Users\\bigba\\Zotero\\storage\\Z7ZGVXDJ\
+    \verb \Daly et al_1998_Acute effects on insulin sensitivity and diurnal met
+    \verb abolic profiles of a.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{The American Journal of Clinical Nutrition}
+    \field{month}{06}
+    \field{year}{1998}
+    \field{urlday}{11}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{sherwood_fisiologia_2008}{book}{}
     \name{author}{1}{}{%
       {{hash=SL}{%
@@ -240,78 +312,6 @@
     \endverb
   \endentry
 
-  \entry{daly_acute_1998}{article}{}
-    \name{author}{6}{}{%
-      {{hash=DME}{%
-         family={Daly},
-         familyi={D\bibinitperiod},
-         given={M\bibnamedelima E},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=VC}{%
-         family={Vale},
-         familyi={V\bibinitperiod},
-         given={C},
-         giveni={C},
-      }}%
-      {{hash=WM}{%
-         family={Walker},
-         familyi={W\bibinitperiod},
-         given={M},
-         giveni={M},
-      }}%
-      {{hash=LA}{%
-         family={Littlefield},
-         familyi={L\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=AKG}{%
-         family={Alberti},
-         familyi={A\bibinitperiod},
-         given={K\bibnamedelima G},
-         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=MJC}{%
-         family={Mathers},
-         familyi={M\bibinitperiod},
-         given={J\bibnamedelima C},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \strng{namehash}{DME+1}
-    \strng{fullhash}{DMEVCWMLAAKGMJC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1093/ajcn/67.6.1186
-    \endverb
-    \field{issn}{0002-9165, 1938-3207}
-    \field{number}{6}
-    \field{pages}{1186\bibrangedash 1196}
-    \field{title}{Acute effects on insulin sensitivity and diurnal metabolic
-  profiles of a high-sucrose compared with a high-starch diet}
-    \verb{url}
-    \verb https://academic.oup.com/ajcn/article/67/6/1186-1196/4666071
-    \endverb
-    \field{volume}{67}
-    \verb{file}
-    \verb Daly et al_1998_Acute effects on insulin sensitivity and diurnal meta
-    \verb bolic profiles of a.pdf:C\:\\Users\\bigba\\Zotero\\storage\\Z7ZGVXDJ\
-    \verb \Daly et al_1998_Acute effects on insulin sensitivity and diurnal met
-    \verb abolic profiles of a.pdf:application/pdf
-    \endverb
-    \field{journaltitle}{The American Journal of Clinical Nutrition}
-    \field{month}{06}
-    \field{year}{1998}
-    \field{urlday}{11}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
-  \endentry
-
   \entry{bergman_quantitative_1979}{article}{}
     \name{author}{4}{}{%
       {{hash=BRN}{%
@@ -477,6 +477,29 @@
     \field{title}{MathWorks}
     \verb{url}
     \verb https://it.mathworks.com/help/matlab/ref/ode45.html
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{lsqnonlin}{article}{}
+    \name{author}{1}{}{%
+      {{hash=nlspS}{%
+         prefix={nonlinear least-squares},
+         prefixi={n\bibinitperiod\bibinitdelim l\bibinithyphendelim
+  s\bibinitperiod},
+         family={problems},
+         familyi={p\bibinitperiod},
+         given={Solve},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{pSnls1}
+    \strng{fullhash}{pSnls1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{MathWorks}
+    \verb{url}
+    \verb https://it.mathworks.com/help/optim/ug/lsqnonlin.html
     \endverb
     \field{year}{2022}
   \endentry

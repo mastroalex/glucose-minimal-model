@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 JUN 2022 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 JUN 2022 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1466,7 +1466,32 @@ Package biblatex Info: ... file 'report_glucose.bbl' found.
 (./report_glucose.bbl)
 Package biblatex Info: Reference section=0 on input line 152.
 Package biblatex Info: Reference segment=0 on input line 152.
- (./testo.tex (./figures//blood_sugar.pdf_tex
+ (./testo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+[]\T1/stix/m/n/12 A par-tire dalle pareti in-testi-nali, dopo
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 9--11
+\T1/stix/m/n/12 l'ingestione, il glu-co-sio viene as-sor-bito e in-
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 9--11
+\T1/stix/m/n/12 pro-cesso può es-sere de-scritto tramite di-versi
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 12--13
+\T1/stix/m/n/12 del glu-co-sio e le di-verse pos-si-bil-ità che of-fre
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 12--13
+\T1/stix/m/n/12 nel tempo, ad es-em-pio in un test IVGGT, o
+ []
+
+(./figures//blood_sugar.pdf_tex
 <figures//blood_sugar.pdf, id=4, page=1, 2341.61887pt x 900.43549pt>
 File: figures//blood_sugar.pdf Graphic file (type pdf)
 <use figures//blood_sugar.pdf, page 1>
@@ -1523,18 +1548,18 @@ File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 <figures/glucose_regolation2.png, id=5, 722.7pt x 542.025pt>
 File: figures/glucose_regolation2.png Graphic file (type png)
 <use figures/glucose_regolation2.png>
-Package pdftex.def Info: figures/glucose_regolation2.png  used on input line 18
+Package pdftex.def Info: figures/glucose_regolation2.png  used on input line 27
 .
 (pdftex.def)             Requested size: 240.73483pt x 180.54773pt.
 
-Underfull \hbox (badness 6078) in paragraph at lines 27--28
+Underfull \hbox (badness 6078) in paragraph at lines 36--37
 []\T1/stix/m/n/12 Normalmente, il glu-co-sio viene con-ser-vato
  []
 
 <figures//logo.png, id=6, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 30.
+Package pdftex.def Info: figures//logo.png  used on input line 39.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1549,21 +1574,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  <./figures//logo.png>]
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-33.
+42.
  (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 []\T1/stix/m/n/12 La pre-senza dello stimo op-posto, quale
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 \T1/stix/m/n/12 la riduzione della glicemia porta in-vece
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 37--38
+Underfull \hbox (badness 1668) in paragraph at lines 46--47
 \T1/stix/m/n/12 all'attivazione delle cel-lule del pan-creas che a
  []
 
@@ -1576,7 +1601,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2 <./figures//blood_sugar.pdf> <./figures/glucose_regolation2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 []\T1/stix/m/it/12 insulin sen-si-tiv-ity\T1/stix/m/n/12 , misura l'efficacia
  []
 
@@ -1592,7 +1617,7 @@ Package pdftex.def Info: figures//minimal.pdf , page1 used on input line 56.
 File: ../code/prediction/matlab/figs/glucose_model.pdf Graphic file (type pdf)
 <use ../code/prediction/matlab/figs/glucose_model.pdf>
 Package pdftex.def Info: ../code/prediction/matlab/figs/glucose_model.pdf  used
- on input line 102.
+ on input line 111.
 (pdftex.def)             Requested size: 235.75613pt x 193.58844pt.
 <../code/prediction/matlab/figs/insuline_model.pdf, id=29, 370.38374pt x 304.13
 625pt>
@@ -1600,30 +1625,30 @@ File: ../code/prediction/matlab/figs/insuline_model.pdf Graphic file (type pdf)
 
 <use ../code/prediction/matlab/figs/insuline_model.pdf>
 Package pdftex.def Info: ../code/prediction/matlab/figs/insuline_model.pdf  use
-d on input line 108.
+d on input line 117.
 (pdftex.def)             Requested size: 235.75613pt x 193.58844pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 120--121
+Underfull \hbox (badness 3260) in paragraph at lines 129--130
 []\T1/stix/m/n/12 Tramite tale mod-ello è pos-si-bile risalire ai
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 120--121
+Underfull \hbox (badness 1466) in paragraph at lines 129--130
 \T1/stix/m/n/12 parametri di in-ter-esse clin-ico, quali la glu-cose
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 120--121
+Underfull \hbox (badness 2221) in paragraph at lines 129--130
 \T1/stix/m/n/12 ef-fec-tive-ness e la in-su-line sen-si-tiv-ity a par-tire
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 120--121
+Underfull \hbox (badness 1675) in paragraph at lines 129--130
 \T1/stix/m/n/12 noti i parametri de-scrit-tivi, è pos-si-bile predire
  []
 
@@ -1640,7 +1665,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-61.
+70.
 
 (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1648,42 +1673,42 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 <figures/simulink_extended.pdf, id=47, 794.97pt x 265.99374pt>
 File: figures/simulink_extended.pdf Graphic file (type pdf)
 <use figures/simulink_extended.pdf>
-Package pdftex.def Info: figures/simulink_extended.pdf  used on input line 192.
+Package pdftex.def Info: figures/simulink_extended.pdf  used on input line 201.
 
 (pdftex.def)             Requested size: 400.78831pt x 134.10457pt.
 <figures/simulink.pdf, id=48, 794.97pt x 127.62581pt>
 File: figures/simulink.pdf Graphic file (type pdf)
 <use figures/simulink.pdf>
-Package pdftex.def Info: figures/simulink.pdf  used on input line 198.
+Package pdftex.def Info: figures/simulink.pdf  used on input line 207.
 (pdftex.def)             Requested size: 400.78831pt x 64.34438pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--202
+Underfull \hbox (badness 10000) in paragraph at lines 199--211
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 []\T1/stix/m/n/12 Per l'implementazione Mat-lab richiede di
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 208--209
+Underfull \hbox (badness 1655) in paragraph at lines 217--218
 \T1/stix/m/n/12 pas-sare a \T1/cmtt/m/n/12 ode45() \T1/stix/m/n/12 le equazioni
  dif-feren-ziali e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 \T1/cmtt/m/n/12 odefcn() \T1/stix/m/n/12 men-tre i parametri ven-gono uniti
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 []\T1/stix/m/n/12 Per il vet-tore tem-po-rale con-viene pas-sare
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 212--213
+Underfull \hbox (badness 2573) in paragraph at lines 221--222
 \T1/stix/m/n/12 so-la-mente l'instante in-iziale e fi-nale las-ciando
  []
 
@@ -1697,8 +1722,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4 <../code/prediction/matlab/figs/glucose_model.pdf> <../code/prediction/matla
 b/figs/insuline_model.pdf>]
-Underfull \vbox (badness 6316) has occurred while \output is active []
-
+<../code/identification/optim.pdf, id=69, 370.38374pt x 294.09875pt>
+File: ../code/identification/optim.pdf Graphic file (type pdf)
+<use ../code/identification/optim.pdf>
+Package pdftex.def Info: ../code/identification/optim.pdf  used on input line 2
+35.
+(pdftex.def)             Requested size: 235.75613pt x 187.19939pt.
+<../code/identification/optim1.pdf, id=70, 370.38374pt x 294.09875pt>
+File: ../code/identification/optim1.pdf Graphic file (type pdf)
+<use ../code/identification/optim1.pdf>
+Package pdftex.def Info: ../code/identification/optim1.pdf  used on input line 
+241.
+(pdftex.def)             Requested size: 235.75613pt x 187.19939pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1709,63 +1744,77 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5 <./figures/simulink_extended.pdf> <./figures/simulink.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <../code/identification/optim.pdf> <../code/identification/optim1.pdf>]
+Underfull \hbox (badness 3884) in paragraph at lines 334--335
+[]\T1/stix/m/n/12 L'implementazione del mod-ello min-imo del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+\T1/stix/m/n/12 glu-co-sio con-sente di predire cor-ret-ta-mente
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 334--335
+\T1/stix/m/n/12 l'andamento della con-cen-trazione di glu-co-sio
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 338--339
+\T1/stix/m/n/12 curva qual-i-ta-ti-va-mente rap-p-re-sen-ta-tiva dei cam-
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 338--339
+\T1/stix/m/n/12 pi-oni ma il risul-tato nu-merico sulla stima dei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6]
-Underfull \hbox (badness 4913) in paragraph at lines 246--246
+Underfull \hbox (badness 2351) in paragraph at lines 349--349
 []\T1/stix/m/n/10 Lauralee Sher-wood. \T1/stix/m/it/10 Fi-si-olo-gia umana: dal
 le cel-
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 246--246
-[]\T1/stix/m/n/10 David L. Nel-son, Michael M. Cox, and Aaron A.
+Underfull \hbox (badness 4647) in paragraph at lines 349--349
+[]\T1/stix/m/n/10 David L. Nel-son, Michael M. Cox, and Aaron
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 246--246
-\T1/stix/m/it/10 Endocrinology and Metabolism \T1/stix/m/n/10 236.6 (June 1979)
-,
+Underfull \hbox (badness 1024) in paragraph at lines 349--349
+[]\T1/stix/m/n/10 Giovanni Pacini and Richard N. Bergman. ``MIN-
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 246--246
-\T1/stix/m/n/10 a com-puter pro-gram to cal-cu-late in-sulin sen-si-tiv-ity
+Underfull \hbox (badness 8000) in paragraph at lines 349--349
+[]\T1/stix/m/n/10 ODE45 Solve non-s-tiff dif-fer-en-tial equa-tions ^^V
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 246--246
-\T1/cmtt/m/n/10 0169 -[] 2607(86 ) 90106 -[] 9$\T1/stix/m/n/10 . \T1/stix/m/sc/
-10 url\T1/stix/m/n/10 : $\T1/cmtt/m/n/10 https : / /
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]\T1/stix/m/n/10 Solve non-lin-ear least-squares prob-lems. ``Math-
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7
-
-]) 
+) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1775,19 +1824,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8
-
-
-] (./report_glucose.aux)
+[7] (./report_glucose.aux)
 Package logreq Info: Writing requests to 'report_glucose.run.xml'.
 \openout1 = `report_glucose.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47282 strings out of 478579
- 1072177 string characters out of 5857457
- 2017092 words of memory out of 5000000
- 64458 multiletter control sequences out of 15000+600000
+ 47354 strings out of 478579
+ 1073604 string characters out of 5857457
+ 2029725 words of memory out of 5000000
+ 64527 multiletter control sequences out of 15000+600000
  510482 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,97p,1884b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1801,13 +1847,14 @@ sftt0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.p
 fb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/tex
 live/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/t
 exmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/f
-onts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
-public/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/sti
-x/stix-mathtt.pfb>
-Output written on report_glucose.pdf (8 pages, 847352 bytes).
+onts/type1/public/stix/stix-mathrm-bold.pfb><c:/texlive/2021/texmf-dist/fonts/t
+ype1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public
+/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix
+-mathtt.pfb>
+Output written on report_glucose.pdf (7 pages, 864432 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+ 309 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

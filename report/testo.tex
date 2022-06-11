@@ -1,6 +1,15 @@
 \section{Introduzione}
 
-\textcolor{blue}{\lipsum[1-2]}
+Il glucosio è fondamentale per la vita degli essere umani. Risulta essere la principale fonte energetica per la gran parte degli organismi viventi fornendo fino a 285 kilocalorie per mole. 
+
+L'organismo umano provvede ad una stretta regolazione dell'omeostasi del glucosio mantenendo i livelli di glicemia quanto più constanti possibile. Tali valori vengono alterati da diversi stimoli e l'integrazione di numerosi meccanismi di controllo porta a ristabilire le condizioni fisiologiche.
+Tra questi sistemi i più importanti sono regolati dal pancreas e dal fegato.
+Il fegato ha una capacità di immagazzinare glucosio piuttosto limitata ed eventuali carboidrati in eccesso vengono convertiti in grassi e depositati nel tessuto adiposo. 
+
+A partire dalle pareti intestinali, dopo l'ingestione, il glucosio viene assorbito e indiritazzato al sistema nervoso centrale e poi al fegato e muscoli, dove viene accumulato come glicogoneo. 
+L'interazione della parte endocrina del pancreas con il fegato e gli altri sistemi provvede ad una stretta regolazione della glicemia e tale processo può essere descritto tramite diversi modelli matematici.
+
+A seguire viene analizzato il modello minimo del glucosio e le diverse possibilità che offre quali la predizione dell'eveoluzione della glicemia nel tempo, ad esempio in un test IVGGT, o l'identificazione di parametri di interesse clinico quali la glucose effectiveness o l'insulin sensitivity. 
 
 \section{Background}
 
@@ -164,7 +173,7 @@ I dati dei test possono essere presi da dati clinici o generati tramite Simulink
 	\end{lstlisting}
 	\caption{Snippet della routine principale per la soluzione del sistema di equazioni differenziali in Matlab}
 	\label{fig:code1}
-	\vspace{1cm}
+	\vspace{0.5cm}
 	\begin{lstlisting}[language=matlab]
 		function dydt=odefcn(t,y,insuline,time,parameters)
 		Sg=parameters(1);
@@ -175,7 +184,7 @@ I dati dei test possono essere presi da dati clinici o generati tramite Simulink
 		% y(1) = G(t); 	% y(2)= X(t)
 		% dGdt=Sg (Gb-G(t))-X(t)*G(t); 	
 		% dXdt=k*(Si*(I(t)-Ib)-X(t)) 
-		% need to reconstruct I(t), the insulin plasmatic concentration, ODE solver need I(t) at every t. Interpolation in the same variabile of the ode solver (t). 
+		% The solver need I(t) at every t wtih linear interpolation 
 		I_inter=interp1(time,insuline,t);
 		dydt(1)=Sg*(Gb-y(1))-y(2)*y(1);
 		dydt(2)=k*(Si*(I_inter-Ib)-y(2));
@@ -219,21 +228,115 @@ Il modello, una volta risolto, fornisce la curva $G(t)$ che può essere confront
 
 Il modello consente di predire i valori a qualsiasi istante temporale ed in particolare con un errore medio, ad eccezione del primo campione in cui c'è una forte differenza, del 6.6\% rispetto ai campioni disponibili.
 
+
+\begin{figure*}[t!]
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../code/identification/optim}
+		\caption{}
+		\label{fig:optim}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../code/identification/optim1}
+		\caption{}
+		\label{fig:optim1}
+	\end{subfigure}\hfill
+	\caption{Risultato di ottimizzazione con il modello risolto con i parametri identificati e i campioni di confronto. Considerando tutti i campioni di glucosio disponibili (a), trascurando il primo (b)}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\begin{lstlisting}[language=matlab]
+		p_init=[0.399e-1, 0.2e-1,0.4e-4,0.287e3]; 
+		options = optimoptions('lsqnonlin','Display','iter');
+		options.Algorithm = 'levenberg-marquardt';
+		options.StepTolerance=1e-8;
+		options.PlotFcn='optimplotresnorm';
+		options.Display='iter-detailed';
+		[x,resnorm,residual,exitflag,output,lambda,jacobian] = lsqnonlin(@optfcn,p_init,[],[],options);	
+		disp(['Error: ',num2str(100*(p_true-x)./p_true),'%'])
+	\end{lstlisting}
+	\caption{Snippet di codice per l'impostazione del problema di ottimizzazione}
+	\label{fig:code3}
+\end{figure*}
+
+
 \subsection{Modellazione in Simulink}
 
+Lo stesso sistema di equazioni differenziali può essere implementato in Simulink.
 
-\textcolor{blue}{\lipsum[1-2]}
+Rimane necessario fornire la funzione descrittiva dell'andamento temporale dell'insulina e per farlo si può usare un blocco \texttt{Matlab function} facendo l'interpolazione lineare.
+
+
+
+I dati dei campioni e i parametri vengono caricati tramite un file \texttt{.m}.
+
+Per distinguere i due compartimenti è utile anche utilizzare maschere e sotto-sistemi, raggruppando i relativi componenti. Ovvero si passa da un modello esteso (\cref{fig:simulinkextended}) ad un modello compatto (\cref{fig:simulinkcompact}) e si osserva come i due compartimenti sono legati proprio dal prodotto $X(t)G(t)$. 
+
 
 \section{Identificazione parametrica}
 
 
-Parametri iniziali da \cite{pacini_minmod_1986}.
 
-\textcolor{blue}{\lipsum[1-2]}
+Ragionando meno in un'ottica di simulazione e focalizzandosi più sugli aspetti clinici è possibile utilizzare tale modello anche per le diagnosi.  Ovvero è possibile approcciare un'identificazione parametrica dei parametri di interesse clinico quali la glucose effectiveness e la insulin sensitivity.
+
+In particolare, si assumono note le curve $G(t)$ e $I(t)$ (ad esempio dal test IVGTT) insieme alla concentrazione basale di glucosio $G_b$ e di insulina $I_b$ e la condizione iniziale $X_0$ e si vanno ad identificare i quattro parametri mancanti:
+
+\begin{equation}
+	\mathbf{P}=\{S_g,\:S_i,\:G_0,\:k\}
+\end{equation}
+
+L'identificazione parametrica non è altro che il tentativo di annullare la funzione errore, data dalla differenza tra i valori noti e la predizione del modello con i parametri stimati:
+
+\begin{equation}
+	\underline{e}\left(\mathbf{P}\right)=\mathtt{glucose}[t_i]-f(t_i,\mathbf{P})
+\end{equation}
+
+Ovvero è un problema di minimizzazione della funzione obiettivo definita come la norma quadra di tale funzione errore.
+
+Per implementare la minimizzazione numerica si utilizza \texttt{lsqnonlin()}, algoritmo in Matlab per la soluzioni di problemi non lineari ai minimi quadrati \cite{lsqnonlin}. L'algoritmo utilizza il metodo Levenberg-Marquardt, un algoritmo che si pone nel mezzo tra l'algoritmo di Gauss-Newton e il metodo della discesa del gradiente.
+
+L'algoritmo di ottimizzazione richiede un guess iniziale e vengono forniti dei valori noti in letteratura, da \citeauthor{pacini_minmod_1986} \cite{pacini_minmod_1986}.
+
+L'impostazione dell'algoritmo, presente in \cref{fig:code3}, richiama la funzione obiettivo presente all'interno di $\mathtt{@optfun()}$. All'interno di tale funzione si richiamano le quantità note e viene definita la funzione errore come differenza tra i campioni di glucosio e il risultato del modello numerico calcolato passando al solutore \texttt{ode45} i parametri aggiornati ogni iterazione.
+
+Il risultato è presente in \cref{fig:optim} dove le curve sono abbastanza vicine nonostante l'errore sui singoli parametri può essere anche elevato. I risultati numerici sono presenti in \cref{tab:optim}.
+
+I risultati non sono convincenti.
+
+Una stima leggermente migliore la si può ottenere andando ad osservare che sperimentalmente il primo campione della concentrazione di glucosio è notevolmente inferiore al $G0$ atteso. Trascurando tale dato si ottiene un andamento più vicino ai dati sperimentali (\cref{fig:optim1}). Nonostante questo, la stima numerica indicata in tabella come Stimati (b) rimane comunque lontana dai valori attesi.
+
+
+
+
+\begin{table}[t!]
+	\small{\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		&  $\mathtt{S_g}$ & $\mathtt{S_i}$ &$\mathtt{k}$  &$\mathtt{G_0}$ \\
+		\hline
+		Iniziali & 0.399E-1 & 0.2E-1 & 0.4E-4 & 287   \\
+		\hline
+		Veri &2.6E-2  &5.0E-4 & 2.5E-2 &279  \\
+		\hline
+		Stimati (a) & 2E-2  &-4E-3  &-1.2E-3  &266  \\
+		\hline
+		Stimati (b) & 3.8E-2  &1E-4  &6.7E-3  &287  \\
+				\hline
+	\end{tabular}}
+	\caption{Parametri di ottimizzazione}
+	\label{tab:optim}
+\end{table}
+
+
 
 \section{Conclusioni}
 
-\textcolor{blue}{\lipsum[1]}
+L'implementazione del modello minimo del glucosio consente di predire correttamente l'andamento della concentrazione di glucosio ematico. 
+
+Tale modello richiede la stima dei parametri descrittivi quali la glucose effectiveness e la insulin sensitivity che possono essere stimati tramite a partire dai risultati di un test IVGTT. Tale stima, essendo un problema non lineare, risente fortemente del guess iniziale e dei dati disponibili per l'identificazione parametrica.
+
+La stima dei parametri potrebbe portare ad una curva qualitativamente rappresentativa dei campioni ma il risultato numerico sulla stima dei parametri non è convincente.
+
 
 \raggedbottom
 \section*{Disponibilità dei dati}
@@ -242,13 +345,8 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 
 
 \raggedbottom
-\pagebreak
+%\pagebreak
 \printbibliography[title=Riferimenti]
 %\section*{References}
-
-\clearpage
-\onecolumn
-\section*{Appendice}
-
 
 
