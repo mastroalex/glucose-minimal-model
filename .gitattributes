@@ -2,3 +2,4 @@
 * text=auto
 * linguist-vendored
 * .m linguist-vendored=false
+* .mat linguist-vendored=false
