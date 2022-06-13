@@ -1,4 +1,2 @@
-# Auto detect text files and perform LF normalization
-* linguist-vendored
-* .m linguist-vendored=false
-* .mat linguist-vendored=false
+# ignore .tex file
+report/* linguist-vendored
