@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 JUN 2022 20:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  11 JUN 2022 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1573,9 +1573,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//logo.png>]
+Underfull \hbox (badness 1377) in paragraph at lines 40--41
+\T1/stix/m/n/12 all'attivazione di nu-merosi mec-ca-n-ismi. I più
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
 42.
- (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
@@ -1688,7 +1692,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--211
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 217--218
-[]\T1/stix/m/n/12 Per l'implementazione Mat-lab richiede di
+[]\T1/stix/m/n/12 Per l'implementazione, Mat-lab richiede di
  []
 
 
@@ -1753,64 +1757,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6 <../code/identification/optim.pdf> <../code/identification/optim1.pdf>]
-Underfull \hbox (badness 3884) in paragraph at lines 334--335
+Underfull \hbox (badness 3884) in paragraph at lines 336--337
 []\T1/stix/m/n/12 L'implementazione del mod-ello min-imo del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 \T1/stix/m/n/12 glu-co-sio con-sente di predire cor-ret-ta-mente
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 334--335
+Underfull \hbox (badness 7468) in paragraph at lines 336--337
 \T1/stix/m/n/12 l'andamento della con-cen-trazione di glu-co-sio
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 338--339
+Underfull \hbox (badness 1014) in paragraph at lines 340--341
 \T1/stix/m/n/12 curva qual-i-ta-ti-va-mente rap-p-re-sen-ta-tiva dei cam-
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 338--339
+Underfull \hbox (badness 1831) in paragraph at lines 340--341
 \T1/stix/m/n/12 pi-oni ma il risul-tato nu-merico sulla stima dei
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 349--349
+Underfull \hbox (badness 2351) in paragraph at lines 351--351
 []\T1/stix/m/n/10 Lauralee Sher-wood. \T1/stix/m/it/10 Fi-si-olo-gia umana: dal
 le cel-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 349--349
+Underfull \hbox (badness 4647) in paragraph at lines 351--351
 []\T1/stix/m/n/10 David L. Nel-son, Michael M. Cox, and Aaron
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 349--349
+Underfull \hbox (badness 1024) in paragraph at lines 351--351
 []\T1/stix/m/n/10 Giovanni Pacini and Richard N. Bergman. ``MIN-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 349--349
+Underfull \hbox (badness 8000) in paragraph at lines 351--351
 []\T1/stix/m/n/10 ODE45 Solve non-s-tiff dif-fer-en-tial equa-tions ^^V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
 []\T1/stix/m/n/10 Solve non-lin-ear least-squares prob-lems. ``Math-
  []
 
@@ -1851,7 +1855,7 @@ onts/type1/public/stix/stix-mathrm-bold.pfb><c:/texlive/2021/texmf-dist/fonts/t
 ype1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public
 /stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix
 -mathtt.pfb>
-Output written on report_glucose.pdf (7 pages, 864432 bytes).
+Output written on report_glucose.pdf (7 pages, 864962 bytes).
 PDF statistics:
  309 PDF objects out of 1000 (max. 8388607)
  190 compressed objects within 2 object streams

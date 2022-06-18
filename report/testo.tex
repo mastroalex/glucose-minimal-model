@@ -33,11 +33,11 @@ La regolazione fisiologica del glucosio è molto complessa. Il corpo integra dif
 
 La glicemia è la misura della concentrazione di glucosio nel sangue. Viene fortemente regolata dal corpo ed è uno dei parametri più importanti dell'omeostasi dell'organismo. 
 
-Normalmente, il glucosio viene conservato all'interno dei muscoli e nel fegato sottoforma di glucogeno. Tale deposito consente quindi di mantenere costante la glicemia tramite differenti vie di controllo.
+Normalmente, il glucosio viene conservato all'interno dei muscoli e nel fegato sottoforma di glicogeno. Tale deposito consente quindi di mantenere costante la glicemia tramite differenti vie di controllo.
 
 Il valore di glicemia può variare notevolmente in presenza di forti stimoli, ad esempio dopo un pasto ricco può crescere fino a $200\div 250$ mg/dl.
 
-La crescita dei livelli plasmatici di glucosio porta all'attivazione di numerosi meccanismi. I due più importanti, per il ripristino dei valori di riposo, segue al rilascio nel sangue di insuline da parte delle cellule beta del pancreas. Si innescano diversi meccanismi a cascata che portano a due azioni principali:
+La crescita dei livelli plasmatici di glucosio porta all'attivazione di numerosi meccanismi. I più importanti, per il ripristino dei valori di riposo, seguono al rilascio nel sangue di insulina da parte delle cellule beta del pancreas. Si innescano diversi meccanismi a cascata che portano a due azioni principali:
 \begin{itemize}
 	\item Aumento del consumo metabolico di glucosio da parte delle cellule del corpo
 	\item Stimolazione dell'uptake di glucosio nel fegato con conseguente accumulo sotto forma di glicogeno
@@ -47,7 +47,7 @@ La presenza dello stimo opposto, quale la riduzione della glicemia porta invece 
 
 Complessivamente sono presenti differenti ormoni catabolici come il glucagone, il cortisolo e le catecolamine che portano ad un aumento della glicemia ma un solo ormone anabolico, l'insulina \cite{nelson_lehninger_2021}.
 
-Tali meccanismi vengono alterate in alcune patologie. 
+Tali meccanismi vengono alterati in alcune patologie. 
 Si parla di iperglicemia quando il livello di glucosio nel sangue rimane troppo elevato. Il mantenimento di condizioni di iperglicemia per molto tempo può portare a differenti problemi di salute quali disturbi al cuore, cancro, problemi agli occhi e ai reni. 
 
 Livelli di glucosio sopra 300 mg/dl portano a danni fatali dovuti alla chetoacidosi
@@ -71,7 +71,7 @@ Quando le cellule $\beta$-pancreatiche rilasciano insulina nella vena portale, p
 
 Il test IVGTT richiede una modello matematico per stimare i parametri e viene spesso utilizzato il modello minimo del glucosio che permette di stimare la risposta pancreatica e la sensibilità insulinica. Si deve precisare anche che il corretto svolgimento di un test IVGTT richiedere personale qualificato in grado anche di applicare una modellazione matematica \cite{cersosimo_assessment_nodate}. 
 
-Il test può durare diverse ore e vengono raccolte le concentrazione del rilascio di glucosio e della concentrazione di insulina o, alternativamente, il C-peptide. Nelle sezioni seguente non si analizzano i modello a C-peptide ma si considera la concentrazione di insulina misurata nel sangue.
+Il test può durare diverse ore e vengono raccolte la concentrazione dovute al rilascio di glucosio e la concentrazione di insulina o, alternativamente, il C-peptide. Nelle sezioni seguente non si analizzano i modello a C-peptide ma si considera la concentrazione di insulina misurata nel sangue.
 
 
 
@@ -94,7 +94,7 @@ Il modello minimo del glucosio è un modello matematico che permette di descrive
 
 Come ogni modello, si deve trovare un compromesso tra l'accuratezza, l'affidabilità, il costo computazionale e il numero dei parametri da stimare per poterlo utilizzare. 
 
-Questo modello, come indicato dal nome, utilizza il numero minore di parametri possibile per poter avere una descrizione sufficientemente accurata da permettere la valutazione delle due quantità clinicamente interessanti, quali la glucose effectiveness e la glucose sensitivity. 
+Questo modello, come indicato dal nome, utilizza il numero minimo di parametri possibile per poter avere una descrizione sufficientemente accurata da permettere la valutazione delle due quantità clinicamente interessanti, quali la glucose effectiveness e la glucose sensitivity. 
 
 Tale modello è stato introdotto da Bergman e Cobelli \cite{bergman_quantitative_1979} e prevede la suddivisione in due compartimenti (\cref{fig:modellominimo}), rappresentati da due equazioni differenziali:
 
@@ -214,11 +214,11 @@ I dati dei test possono essere presi da dati clinici o generati tramite Simulink
 
 A partire dai valori di insulina, campionata e presente nei dati in \cref{fig:insuline_model} è possibile implementare e risolvere il modello tramite un solutore di equazioni differenziali, \texttt{ode45()}. L'algoritimo si basa su metodo esplicito di Runge-Kutta di ordine 4 e 5 richiedendo quindi solamente la soluzione al passo precedente, oltre i parametri iniziali, e risolvendo in un singolo step temporale \cite{ode45}.
 
-Per l'implementazione Matlab richiede di passare a \texttt{ode45()} le equazioni differenziali e i parametri. L'equazione viene passata tramite \texttt{odefcn()} mentre i parametri vengono uniti all'interno di un array \cref{fig:code1}. 
+Per l'implementazione, Matlab richiede di passare a \texttt{ode45()} le equazioni differenziali e i parametri. L'equazione viene passata tramite \texttt{odefcn()} mentre i parametri vengono uniti all'interno di un array (\cref{fig:code1}) 
 
 Inoltre, vengono passati i valori iniziali e il vettore dei tempi. 
 
-Per il vettore temporale conviene passare solamente l'instante iniziale e finale lasciando l'algoritmo libero di scegliere il passo, così da avere un risultato più accurato. Tale vettore \texttt{time} fa parte dei dati sperimentali contenenti anche i campioni di glucosio, in \cref{fig:glucosemodel} utilizzati per il confronto, e di insulina, in \cref{fig:insuline_model}, utilizzati nella predizione.
+Per il vettore temporale conviene passare solamente l'instante iniziale e finale lasciando l'algoritmo libero di scegliere il passo, così da avere un risultato più accurato. Tale vettore \texttt{time} fa parte dei dati sperimentali contenenti anche i campioni di glucosio, in \cref{fig:glucosemodel},utilizzati per il confronto, e di insulina, in \cref{fig:insuline_model}, utilizzati nella predizione.
 
 Il modello matematico in \cref{eq:modello} viene quindi inserito all'interno di \texttt{odefcn()}, in \cref{fig:code2}, con l'accortezza di garantire il valore dell'insulina $I(t)$ ad ogni instante temporale. Per fare ciò si utilizza un'interpolazione lineare sui valori campionati, leggendone il valore allo stesso istante temporale utilizzato nella soluzione del sisitema di equazioni differenziali.
 
@@ -304,7 +304,9 @@ Il risultato è presente in \cref{fig:optim} dove le curve sono abbastanza vicin
 
 I risultati non sono convincenti.
 
-Una stima leggermente migliore la si può ottenere andando ad osservare che sperimentalmente il primo campione della concentrazione di glucosio è notevolmente inferiore al $G0$ atteso. Trascurando tale dato si ottiene un andamento più vicino ai dati sperimentali (\cref{fig:optim1}). Nonostante questo, la stima numerica indicata in tabella come Stimati (b) rimane comunque lontana dai valori attesi.
+Una stima leggermente migliore la si può ottenere andando ad osservare che sperimentalmente il primo campione della concentrazione di glucosio è notevolmente inferiore al $G0$ atteso. Trascurando tale dato si ottiene un andamento più vicino ai dati sperimentali (\cref{fig:optim1}). 
+
+Nonostante questo, la stima numerica indicata in tabella come $\mathtt{Stimati \:(b)}$ rimane comunque lontana dai valori attesi.
 
 
 
@@ -333,7 +335,7 @@ Una stima leggermente migliore la si può ottenere andando ad osservare che sper
 
 L'implementazione del modello minimo del glucosio consente di predire correttamente l'andamento della concentrazione di glucosio ematico. 
 
-Tale modello richiede la stima dei parametri descrittivi quali la glucose effectiveness e la insulin sensitivity che possono essere stimati tramite a partire dai risultati di un test IVGTT. Tale stima, essendo un problema non lineare, risente fortemente del guess iniziale e dei dati disponibili per l'identificazione parametrica.
+Tale modello richiede la stima dei parametri descrittivi quali la glucose effectiveness e la insulin sensitivity che possono essere stimati a partire dai risultati di un test IVGTT. Tale stima, essendo un problema non lineare, risente fortemente del guess iniziale e dei dati disponibili per l'identificazione parametrica.
 
 La stima dei parametri potrebbe portare ad una curva qualitativamente rappresentativa dei campioni ma il risultato numerico sulla stima dei parametri non è convincente.
 
